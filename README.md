@@ -3,8 +3,8 @@
 
 Spring batch werkt op basis van:
 - JobBuilderFacotory
- - = om een jobs te definieren
- - meestal word hiervoor een config klasse aangemaakt
+    - = om een jobs te definieren
+    - meestal word hiervoor een config klasse aangemaakt
 
  - Binnen een job kan er op 2 manieren gewerkt worde: 
   - Via Steps

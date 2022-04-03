@@ -1,6 +1,11 @@
 # Spring Batch Onderzoeksproject
 ## **descriptie**: Onderzoeksproject naar hoe spring batch werkt
 
+### Wat doet het programma
+Het programma maakt gebruik van Spring Batch.
+Het gaat personen in een csv bestand uitlezen, het id van het department linken aan een 
+effectieve tekst department en daarna wegschrijven naar een in memory H2 databank.
+
 Spring batch werkt op basis van:
 - JobBuilderFacotory
     - = Om een jobs te definieren

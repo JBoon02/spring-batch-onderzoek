@@ -74,6 +74,10 @@ Deze tasklet definieert een reader, writer, processor die over chunks van data w
 - LineProcessor implements LineProcessor<Line, Line>
 
 In dit project word er gebruikt gemaakt van de chunks methode
+    
+## JobLauncher 
+Om een job te starten word er dan uiteindelijk in een REST-controller 
+een endpoint aangemaakt die een JobLauncher gebruikt om de job te 'runnen'
 
 Sources
 ---

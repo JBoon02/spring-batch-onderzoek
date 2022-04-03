@@ -7,7 +7,7 @@ Spring batch werkt op basis van:
     - meestal word hiervoor een config klasse aangemaakt
 
  - Binnen een job kan er op 2 manieren gewerkt worde: 
-  - Via Steps
-  - Via Tasklets
+     - Via Steps
+     - Via Tasklets
 
 

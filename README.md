@@ -1,5 +1,5 @@
 # Spring Batch Onderzoeksproject
- ## descriptie: Onderzoeksproject naar hoe spring batch werkt
+## **descriptie**: Onderzoeksproject naar hoe spring batch werkt
 
 Spring batch werkt op basis van:
 - JobBuilderFacotory
@@ -8,26 +8,26 @@ Spring batch werkt op basis van:
 - StepBuilderFactory
     - = Om de stappen te definieëren die worden gezet binnen een job
     - Elke step word voorzien van een Reader en Writer eventueel een Processor. 
-> Reader: 
+> **Reader**: 
 > 
 > Leest gegevens in. 
 
 
-> Processor
+> **Processor**
 > 
 > Verwekt de gegevens die ingelezen zijn door de reader. 
 
-> Writer: 
+> **Writer**: 
 > 
 > Schrijft de verwerkte gegevens terug weg.
 
-> Listener:
+> **Listener**:
 > 
 > voorbeeld: StepExecutionListener
 > 
 > Dit is een interface die bij het implementeren verplicht om een 
 > 
-> ***@BeforeStep*** en ***@AfterStep*** te definieëren
+> ***__@BeforeStep__*** en ***__@AfterStep__*** te definieëren
 
 ! Er kan ook gebruikt worden gemaakt van een flow binnen een job waarbij 
   elke flow verschillende steps heeft. 
